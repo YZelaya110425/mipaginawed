@@ -1,61 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
-    <style>
-        body {
-            background-color: #f0f8ff; /* Color de fondo suave */
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            padding: 20px;
-        }
-        h1 {
-            color: #333;
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
-        p {
-            color: #555;
-            font-size: 1.2em;
-            max-width: 600px;
-            margin-bottom: 30px;
-        }
-        .firma {
-            color: #888;
-            font-size: 1em;
-            font-style: italic;
-            margin-bottom: 20px;
-        }
-        .boton {
-            background-color: #4CAF50;
-            color: white;
-            padding: 15px 30px;
-            text-decoration: none;
-            border-radius: 10px;
-            font-size: 1.2em;
-            transition: background-color 0.3s;
-        }
-        .boton:hover {
-            background-color: #45a049;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Morada Pastel</title>
+  <style>
+    /* Fondo pastel morado */
+    body {
+      background-color: #E6E6FA; /* lavanda pastel */
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    /* Línea decorativa */
+    .linea {
+      height: 20px;
+      background-color: #D8BFD8; /* morado suave */
+    }
+
+    /* Contenido principal */
+    main {
+      padding: 20px;
+    }
+
+    /* Botón de contacto */
+    .boton-contacto {
+      background-color: #D8BFD8; /* morado suave */
+      color: #333;
+      padding: 10px 20px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none; /* Para que no se vea como link azul */
+      display: inline-block;
+      transition: background-color 0.3s;
+    }
+
+    /* Efecto al pasar el mouse */
+    .boton-contacto:hover {
+      background-color: #C8A2C8; /* morado un poco más oscuro */
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
 </head>
-<body> 
 
-    <h1>Bienvenido a Mi Página</h1>
-    <p>Hola, soy un creador de páginas web desde mi celular. Me encanta aprender y construir cosas nuevas. ¡Gracias por visitar mi sitio!</p> 
+<body>
 
-    <div class="firma">Hecho con amor y pasión desde mi celular.</div> 
+<!-- Línea arriba -->
+<div class="linea"></div>
 
-    <a href="https://wa.me/tu-numero" class="boton" target="_blank">Contáctame</a> 
+<!-- Contenido -->
+<main>
+  <h1>Bienvenido a mi Página Web</h1>
+  <p>Estoy aprendiendo a programar páginas web desde mi teléfono.</p>
+  <p>¡Gracias por visitar!</p>
+
+  <!-- Botón de contacto -->
+  <a href="mailto:tuemail@example.com" class="boton-contacto">Contáctame</a>
+
+</main>
+
+<!-- Línea abajo -->
+<div class="linea"></div>
+
+<!-- Footer o pie de página -->
+<footer>
+  © 2025 Yzelaya
+</footer>
 
 </body>
 </html>
